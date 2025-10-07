@@ -16,3 +16,11 @@ export default defineConfig(({ mode }) => ({
     },
   },
 }));
+
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
+export default defineConfig({
+  base: '/provapaulista3bimestre/', // coloque o nome exato do repositório
+  plugins: [react()],
+});
